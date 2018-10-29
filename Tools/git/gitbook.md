@@ -157,6 +157,7 @@ og'
 ```
 webhookit -c /home/chail/lab/gitbook/webhook/webhook_for_github.conf -p 3006
 ```
+> 对外网址：http://101.132.116.192:3006/webhookit
 
 ### github 配置
 > github 仓库中配置webhook
