@@ -1,4 +1,14 @@
 # gitbook 实践20181029
+## 背景
+> 在github上整理知识库，记录日常实践操作记录，同步生成gitbook，更新博客；
+
+- github上编辑md文件，执行push操作；
+- github 触发webhook;
+- webhook 服务端程序，调度指定脚本；
+- 指定脚本git pull 拉取最新代码；
+- 指定脚本执行 gitbook build生成最新book html文件；
+- 拷贝html文件到服务器目录下；
+- 访问博客，显示更新后的内容；
 
 ## 安装及使用
 
