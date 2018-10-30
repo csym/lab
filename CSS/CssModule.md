@@ -119,6 +119,7 @@ loader: "style-loader!css-loader?modules!postcss-loader"
 @value green: #aaf200;
 ```
 > cat App.css
+
 ```
 @value colors: "./colors.css";
 @value blue, red, green from colors;
@@ -130,6 +131,7 @@ loader: "style-loader!css-loader?modules!postcss-loader"
 ```
 
 ## 使用经验(来源于网络)
+
 ### class 命名技巧
 > CSS Modules 的命名规范是从 BEM 扩展而来。BEM 把样式名分为 3 个级别，分别是：
 
@@ -143,6 +145,7 @@ loader: "style-loader!css-loader?modules!postcss-loader"
 > 当生成混淆的 class 名后，可以解决命名冲突，但因为无法预知最终 class 名，不能通过一般选择器覆盖。我们现在项目中的实践是可以给组件关键节点加上 data-role 属性，然后通过属性选择器来覆盖样式
 
 > dialog.js
+
 ```
   return <div className={styles.root} data-role='dialog-root'>
       <a className={styles.disabledConfirm} data-role='dialog-confirm-btn'>Confirm</a>
@@ -150,6 +153,7 @@ loader: "style-loader!css-loader?modules!postcss-loader"
   </div>
 ```
 > dialog.css
+
 ```
 [data-role="dialog-root"] {
   // override style
