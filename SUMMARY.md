@@ -33,6 +33,8 @@
     * [git相关](Tools/git.md)
         * [gitbook](Tools/git/gitbook.md)
         * [webhook](Tools/git/webhook.md)
+        * [git标签](Tools/git/gittag.md)
+        * [git远程仓库](Tools/git/remote.md)
     * [模拟接口](Tools/mock.md)
         * [umi2 创建mockServer](Tools/mock/MockServer.md)
         * [json-server实践](Tools/mock/JsonServer.md)
