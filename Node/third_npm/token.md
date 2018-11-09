@@ -79,3 +79,4 @@ const auth = authority => (req, res, next) => {
 ## 参考资料
 
 - [使用Json Web Token设计Passport系统](https://www.cnblogs.com/binyue/p/4812798.html)
+- [express 使用password](https://jonathanmh.com/express-passport-json-web-token-jwt-authentication-beginners/)
