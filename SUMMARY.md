@@ -22,6 +22,7 @@
 * [node相关](node.md)
     * [常用npm包](Node/npm.md)
         * [npm包索引](Node/third_npm/npm_index.md)
+        * [crypto-js代码片段](Node/third_npm/cryto-js.md)
 * [CSS](CSS.md)
     * [Css](CSS/Css.md)
         * [Css参考资料](CSS/CSS/Css.md)
