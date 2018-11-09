@@ -153,6 +153,21 @@ og'
 }
 ```
 
+> cat gitbook_update.sh
+
+```
+#!/bin/bash
+#source /etc/profile
+#source /home/huangwj/.bash_profile
+date
+cd /home/chail/lab/gitbook/lab
+echo "pull begin......"
+git pull
+gitbook install
+gitbook build
+echo '密码'|sudo -S cp -rf ./_book/* /home/chail/webroot/html/gitbook/
+```
+
 ### webhook 启动
 ```
 webhookit -c /home/chail/lab/gitbook/webhook/webhook_for_github.conf -p 3006
