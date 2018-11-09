@@ -40,6 +40,7 @@
 * [工具库](tools.md)
     * [git相关](Tools/git.md)
         * [gitbook](Tools/git/gitbook.md)
+        * [github_blog](Tools/git/hexo_blog.md)
         * [webhook](Tools/git/webhook.md)
         * [git标签](Tools/git/gittag.md)
         * [git远程仓库](Tools/git/remote.md)
