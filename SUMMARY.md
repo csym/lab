@@ -49,4 +49,7 @@
         * [json-server实践](Tools/mock/JsonServer.md)
     * [Docker](Tools/docker.md)
         * [Docker Image实践](Tools/docker/docker_ccna.md)
+        * [Docker 私有仓库](Tools/docker/docker_registry.md)
+        * [jenkins和docker实现自动化构建部署](Tools/docker/docker_jenkins.md)
+        * [Docker 常用命令](Tools/docker/docker_cmd.md)
 
